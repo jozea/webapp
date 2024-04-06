@@ -590,6 +590,10 @@
         left: auto;
         right: 0px !important;
     }
+    .stories-div .stories {
+        padding: 100px 35px;
+    }
+    
 }
 
 @media only screen and (max-width: 757px) {
@@ -620,4 +624,91 @@
             padding: 100px 40px;
         }
     }
+    .content-div {
+        padding: 93px 30px;
+    }
+
+    .content3 {
+        .text-div {
+            .step1 {
+                .circle-div {
+                    display: none;
+                }
+                .line-div {
+                    display: none;
+                }
+            }
+            .step2 {
+                .circle2-div {
+                    display: none;
+                }
+                .line2-div {
+                    display: none;
+                }
+            }
+            .step3 {
+                .circle3-div {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 380px) {
+    .content-div {
+        padding: 93px 27px;
+    }
+    .content3 {
+        .text-div {
+            .step1 {
+                .circle-div {
+                    display: none;
+                }
+                .line-div {
+                    display: none;
+                }
+            }
+            .step2 {
+                .circle2-div {
+                    display: none;
+                }
+                .line2-div {
+                    display: none;
+                }
+            }
+            .step3 {
+                .circle3-div {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .content-div3 { 
+        .news-div {
+            padding: 0px 15px !important;
+        }
+        .card-div {
+            padding: 0px 20px;
+        }
+    }
+    
+    .content-div4 {
+        padding: 93px 20px;
+    }
+    
+    .footer-div {
+        .footer {
+            padding: 82px 20px 50px 20px;
+            .col1 .contact span {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 26px;
+                color: #FFFFFF;
+                margin-right: 5px;
+                cursor: pointer;
+            }
+        }
+    } 
 }

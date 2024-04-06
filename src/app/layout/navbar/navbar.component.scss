@@ -55,3 +55,13 @@
         padding: 44px 71px;
     }
 }
+@media only screen and (max-width: 700px) {
+    .nav-div {
+        padding: 44px 26px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .nav-div {
+        padding: 44px 0px;
+    }
+}
