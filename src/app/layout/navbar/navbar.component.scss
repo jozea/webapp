@@ -1,0 +1,57 @@
+.nav-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 44px 160px;
+    .navbar-brand {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        color: #7D97F4;
+    }
+    .nav-content {
+        display: flex;
+        .nav-item {
+            padding: 1px 20px;
+            margin-top: 15px;
+            a {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #222222;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+        .nav-btn {
+            .talk-btn {
+                padding: 12px 32px; 
+                background: #7D97F4;
+                border-radius: 10px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 32px;
+                color: #FFFFFF;
+                
+            }
+
+        }
+    }
+}
+
+.nav-item .active {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7D97F4 !important;
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .nav-div {
+        padding: 44px 71px;
+    }
+}
