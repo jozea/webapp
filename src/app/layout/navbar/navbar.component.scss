@@ -58,6 +58,9 @@
 @media only screen and (max-width: 700px) {
     .nav-div {
         padding: 44px 26px;
+        .nav-content {
+            display: none;
+        }
     }
 }
 @media only screen and (max-width: 380px) {
